@@ -1,0 +1,13 @@
+name:                pipes-memory-leak-example
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+- sequence-formats
+- pipes
+- pipes-safe
+- filepath
+
+executables:
+  pipes-memory-leak-example-exe:
+    main:                Main.hs
